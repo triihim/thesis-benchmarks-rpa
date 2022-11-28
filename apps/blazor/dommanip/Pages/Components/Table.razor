@@ -1,0 +1,17 @@
+@using Models
+<table class="table">
+  <tbody>
+    @foreach (var row in Rows)
+    {
+      <tr class="table__row">
+        <td class="table__cell">@row.RowId</td>
+        <td class="table__cell">@row.Value</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+@code {
+  [Parameter] 
+  public List<Row> Rows { get; set; } = new List<Row>();
+}

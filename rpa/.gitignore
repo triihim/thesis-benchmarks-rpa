@@ -1,0 +1,7 @@
+output.xml
+report.html
+log.html
+**/*.png
+csv/*
+figures/*
+measurement/*

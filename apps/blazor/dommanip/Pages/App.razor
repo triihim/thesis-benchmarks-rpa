@@ -1,0 +1,47 @@
+﻿@page "/"
+@using Models
+@using dommanip.Pages.Components
+
+<main>
+  <p id="status">@Status</p>
+  <input type="number" @bind="RowCount"/>
+  <button id="btnGenerate" @onclick="Generate">Generate</button>
+  <button id="btnRender" @onclick="Render">Render</button>
+  <button id="btnUpdate" @onclick="Update">Update</button>
+  <button id="btnRemove" @onclick="Remove">Remove</button>
+  @if(ShouldRenderRows) {
+    <Table Rows="RenderRows"></Table>
+  }
+</main>
+
+@code {
+  private string Status { get; set; } = "Ready to start";
+  private int RowCount { get; set; } = 0;
+  private List<Row> RenderRows { get; set; } = new List<Row>();
+  public bool ShouldRenderRows { get; set; } = false;
+
+  private void Generate() {
+    var temp = new List<Row>();
+    for(int i = 1; i < this.RowCount; i++) {
+      temp.Add(new Row(i, i));
+    }
+    this.RenderRows = temp;
+    this.Status = "Ready to render";
+  }
+
+  private void Render() {
+    this.ShouldRenderRows = true;
+    this.Status = "Ready to update";
+  }
+
+  private void Update() {
+    this.RenderRows = this.RenderRows.Select((row, i) => i % 2 == 0 ? new Row(row.RowId, row.Value * 2) : row).ToList();
+    this.Status = "Ready to remove";
+  }
+
+  private void Remove() {
+    this.RenderRows = this.RenderRows.Where((row, i) => i % 2 == 0).ToList();
+    this.Status = "Finished";
+  }
+
+}
