@@ -3,25 +3,24 @@
 trap "exit" INT TERM ERR
 trap "kill 0" EXIT
 
-browser=$1
-framework=$2
-renderCount=$3
+framework=$1
+renderCount=$2
+
+browsers=("firefox" "chrome" "edge")
 
 http-server -p 8080 ./apps/BUILDS/${framework} &
 
 cd rpa
 
-for i in {1..10}
+for browser in "${browsers[@]}"
 do
-  python -m robot --variable browser:${browser} \
-                  --variable url:http://localhost:8080 \
-                  --variable framework:${framework} \
-                  --variable iteration:${i} \
-                  --variable rendercount:${renderCount} \
-                  measure.robot
+  for i in {1..10}
+  do
+    python -m robot --variable browser:${browser} \
+                    --variable url:http://localhost:8080 \
+                    --variable framework:${framework} \
+                    --variable iteration:${i} \
+                    --variable rendercount:${renderCount} \
+                    measure.robot
+  done
 done
-
-
-
-
-

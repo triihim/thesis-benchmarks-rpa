@@ -2,12 +2,14 @@ import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 
-framework = sys.argv[1]
-iteration = sys.argv[2]
+browser = sys.argv[1]
+framework = sys.argv[2]
+iteration = sys.argv[3]
 
-render_df = pd.read_csv(f"./csv/{framework}_render_{iteration}.csv")
-update_df = pd.read_csv(f"./csv/{framework}_update_{iteration}.csv")
-remove_df = pd.read_csv(f"./csv/{framework}_remove_{iteration}.csv")
+
+render_df = pd.read_csv(f"./csv/{browser}_{framework}_render_{iteration}.csv")
+update_df = pd.read_csv(f"./csv/{browser}_{framework}_update_{iteration}.csv")
+remove_df = pd.read_csv(f"./csv/{browser}_{framework}_remove_{iteration}.csv")
 dfs = [render_df, update_df, remove_df]
 
 titles = ["Piirto", "Päivitys", "Poisto"]
@@ -33,7 +35,7 @@ for df in dfs:
 
 fig.supxlabel("Aika (s)")
 fig.supylabel("Teho (W)")
-fig.suptitle(f"{(framework.upper())} - tehoprofiili")
+fig.suptitle(f"{(framework.upper())}-tehoprofiili {browser.upper()}-verkkoselaimessa")
 fig.legend(labels=["Prosessori", "DRAM"], loc="upper right")
 fig.set_size_inches(8, 5)
-plt.savefig(f"./figures/{framework}_profiles_{iteration}.png")
+plt.savefig(f"./figures/{browser}_{framework}_profiles_{iteration}.png")

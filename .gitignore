@@ -1,4 +1,6 @@
 output.xml
 report.html
 log.html
-**/*.png
+**/*.png¨
+**/*.log
+data/

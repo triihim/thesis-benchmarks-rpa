@@ -11,7 +11,7 @@ ${browser}    chrome
 ${url}    http://localhost:3000/ 
 ${framework}    na
 ${iteration}    1
-${rendercount}     10000
+${rendercount}     25000
 
 *** Keywords ***
 Setup RPA
@@ -23,8 +23,8 @@ Setup RPA
 
 Teardown RPA
     Close Browser
-    Start Process    python    ./scripts/profile.py     ${framework}     ${iteration}
-    Start Process    python    ./scripts/aggregate.py     ${framework}     ${iteration}
+    Start Process    python    ./scripts/profile.py    ${browser}     ${framework}     ${iteration}
+    Start Process    python    ./scripts/aggregate.py    ${browser}     ${framework}     ${iteration}
 
 Begin Measurement
     Sleep    1s
@@ -36,9 +36,10 @@ End Measruement
     Start Process    IntelPowerGadget.exe     -stop
     Sleep    1s
 
+
 Rename Measurement File
     [Arguments]    ${name}
-    Move File    ./measurements/measurement*    ./csv/${framework}_${name}_${iteration}.csv 
+    Move File    ./measurements/measurement*    ./csv/${browser}_${framework}_${name}_${iteration}.csv 
 
 *** Tasks ***
 Measure Render
@@ -61,4 +62,3 @@ Measure Remove
     Wait Until Page Contains    Finished
     End Measruement
     Rename Measurement File    remove
-
