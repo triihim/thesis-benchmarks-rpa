@@ -36,6 +36,6 @@ for df in dfs:
 fig.supxlabel("Aika (s)")
 fig.supylabel("Teho (W)")
 fig.suptitle(f"{(framework.upper())}-tehoprofiili {browser.upper()}-verkkoselaimessa")
-fig.legend(labels=["Prosessori", "DRAM"], loc="upper right")
+fig.legend(labels=["CPU", "DRAM"], loc="upper right")
 fig.set_size_inches(8, 5)
 plt.savefig(f"./figures/{browser}_{framework}_profiles_{iteration}.png")
