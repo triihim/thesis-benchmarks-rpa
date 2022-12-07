@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_vue_edge",
+    "CPU energiankulutuksen keskiarvo (J)": 25.555,
+    "CPU energiankulutuksen keskihajonta (J)": 0.785,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.856,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.014,
+    "CPU tehon keskiarvo (W)": 10.087,
+    "CPU tehon keskihajonta (W)": 0.232,
+    "DRAM tehon keskiarvo (W)": 0.856,
+    "DRAM tehon keskihajonta (W)": 0.014,
+    "Suoritusajan keskiarvo (S)": 2.559,
+    "Suoritusajan keskihajonta (S)": 0.016,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 26.411,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.785
+}

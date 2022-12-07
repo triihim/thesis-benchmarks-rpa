@@ -1,8 +1,18 @@
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
 plt.style.use("ggplot")
+
+
+matplotlib.use("pgf")
+matplotlib.rcParams.update({
+    "pgf.texsystem": "pdflatex",
+    'font.family': 'serif',
+    'text.usetex': True,
+    'pgf.rcfonts': False,
+})
 
 cols = ["Processor total (J)", "Processor mean (W)", "DRAM total (J)", "DRAM mean (W)", "Total time (s)"]
 
@@ -54,13 +64,13 @@ def get_plot(browser, property):
     title = f"CPU:n energiankulutus {browser.capitalize()}-verkkoselaimessa"
   elif property == "cpu_watt_mean":
     ylabel = "CPU:n tehon keskiarvo (W)"
-    title = f"CPU:n tehonkäyttö {browser.capitalize()}-verkkoselaimessa"
+    title = f"CPU:n tehon keskiarvo {browser.capitalize()}-verkkoselaimessa"
   elif property == "dram_energy_total":
     ylabel = "DRAM:in energiankulutus (J)"
     title = f"DRAM:in energiankulutus {browser.capitalize()}-verkkoselaimessa"
   elif property == "dram_watt_mean":
     ylabel = "DRAM:in tehon keskiarvo (W)"
-    title = f"DRAM:in tehonkäyttö {browser.capitalize()}-verkkoselaimessa"
+    title = f"DRAM:in tehon keskiarvo {browser.capitalize()}-verkkoselaimessa"
   elif property == "total_time":
     ylabel = "Suoritusaika (s)"
     title = f"Suoritusaika {browser.capitalize()}-verkkoselaimessa"
@@ -79,7 +89,7 @@ def get_plot(browser, property):
   ax.bar(x_indexes - bar_width, angular[property], width=bar_width, label="Angular", color="#DD0031")
   ax.bar(x_indexes, vue[property], width=bar_width, label="Vue", color="#42b883")
   ax.bar(x_indexes + bar_width, blazor_aot[property], width=bar_width, label="Blazor AOT", color="#562B88")
-  ax.bar(x_indexes + 2*bar_width, blazor_noaot[property], width=bar_width, label="Blazor NOAOT", color="#CE3EE5")
+  ax.bar(x_indexes + 2*bar_width, blazor_noaot[property], width=bar_width, label="Blazor JIT", color="#CE3EE5")
   ax.set_xticks(x_indexes, x_labels)
   ax.set_xlabel(xlabel)
   ax.set_ylabel(ylabel)
@@ -95,8 +105,8 @@ for b in browsers:
     fig = plt.figure()
     plot = get_plot(b, p)
     fig.add_subplot(plot)
-    fig.set_size_inches(8, 5)
-    fig.savefig(f"../rpa/figures/{b}_{p}.png")
+    fig.set_size_inches(6.5, 4.5)
+    fig.savefig(f"../rpa/figures/pgf/{b}_{p}.pgf")
     plt.close()
       
       

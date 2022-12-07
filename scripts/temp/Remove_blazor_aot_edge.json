@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_blazor_aot_edge",
+    "CPU energiankulutuksen keskiarvo (J)": 46.944,
+    "CPU energiankulutuksen keskihajonta (J)": 2.006,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.803,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.032,
+    "CPU tehon keskiarvo (W)": 17.002,
+    "CPU tehon keskihajonta (W)": 0.976,
+    "DRAM tehon keskiarvo (W)": 0.803,
+    "DRAM tehon keskihajonta (W)": 0.032,
+    "Suoritusajan keskiarvo (S)": 2.742,
+    "Suoritusajan keskihajonta (S)": 0.019,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 47.747,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 2.006
+}

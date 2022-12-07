@@ -1,0 +1,15 @@
+{
+    "Testi": "Render_blazor_noaot_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 45.538,
+    "CPU energiankulutuksen keskihajonta (J)": 0.494,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.814,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.002,
+    "CPU tehon keskiarvo (W)": 12.154,
+    "CPU tehon keskihajonta (W)": 0.276,
+    "DRAM tehon keskiarvo (W)": 0.814,
+    "DRAM tehon keskihajonta (W)": 0.002,
+    "Suoritusajan keskiarvo (S)": 3.771,
+    "Suoritusajan keskihajonta (S)": 0.028,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 46.352,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.494
+}

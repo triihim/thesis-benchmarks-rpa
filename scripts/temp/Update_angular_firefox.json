@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_angular_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 311.01,
+    "CPU energiankulutuksen keskihajonta (J)": 4.739,
+    "DRAM energiankulutuksen keskiarvo (J)": 1.302,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.005,
+    "CPU tehon keskiarvo (W)": 24.828,
+    "CPU tehon keskihajonta (W)": 0.312,
+    "DRAM tehon keskiarvo (W)": 1.302,
+    "DRAM tehon keskihajonta (W)": 0.005,
+    "Suoritusajan keskiarvo (S)": 12.522,
+    "Suoritusajan keskihajonta (S)": 0.086,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 312.312,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 4.739
+}

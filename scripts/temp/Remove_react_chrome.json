@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_react_chrome",
+    "CPU energiankulutuksen keskiarvo (J)": 46.39,
+    "CPU energiankulutuksen keskihajonta (J)": 3.165,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.883,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.033,
+    "CPU tehon keskiarvo (W)": 18.204,
+    "CPU tehon keskihajonta (W)": 1.067,
+    "DRAM tehon keskiarvo (W)": 0.883,
+    "DRAM tehon keskihajonta (W)": 0.033,
+    "Suoritusajan keskiarvo (S)": 2.551,
+    "Suoritusajan keskihajonta (S)": 0.023,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 47.273,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 3.165
+}

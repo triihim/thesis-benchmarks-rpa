@@ -1,0 +1,15 @@
+{
+    "Testi": "Render_angular_chrome",
+    "CPU energiankulutuksen keskiarvo (J)": 71.321,
+    "CPU energiankulutuksen keskihajonta (J)": 0.856,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.968,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.004,
+    "CPU tehon keskiarvo (W)": 22.744,
+    "CPU tehon keskihajonta (W)": 0.248,
+    "DRAM tehon keskiarvo (W)": 0.968,
+    "DRAM tehon keskihajonta (W)": 0.004,
+    "Suoritusajan keskiarvo (S)": 3.132,
+    "Suoritusajan keskihajonta (S)": 0.009,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 72.289,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.856
+}

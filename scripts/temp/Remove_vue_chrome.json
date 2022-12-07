@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_vue_chrome",
+    "CPU energiankulutuksen keskiarvo (J)": 40.324,
+    "CPU energiankulutuksen keskihajonta (J)": 0.765,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.824,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.007,
+    "CPU tehon keskiarvo (W)": 16.946,
+    "CPU tehon keskihajonta (W)": 0.462,
+    "DRAM tehon keskiarvo (W)": 0.824,
+    "DRAM tehon keskihajonta (W)": 0.007,
+    "Suoritusajan keskiarvo (S)": 2.409,
+    "Suoritusajan keskihajonta (S)": 0.03,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 41.148,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.765
+}

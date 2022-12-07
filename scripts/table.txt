@@ -1,0 +1,23 @@
+\begin{table}[htb!]
+	\centering
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+		\hline 
+		\multicolumn{4}{|c|}{\textbf{TODO}} \\ 
+		\hline 
+		\hline 
+		& Google Chrome		& Microsoft Edge		& Mozilla Firefox\\ 
+		\hline 
+		React & $71,20 \pm 0,86$, 0\% & $44,84 \pm 0,57$, 0\% & $27,63 \pm 0,86$, 0\%\\ 
+		\hline 
+		Angular & $72,29 \pm 0,86$, \redtext{$\uparrow 2\%$} & $46,71 \pm 1,46$, \redtext{$\uparrow 4\%$} & $29,33 \pm 0,73$, \redtext{$\uparrow 6\%$}\\ 
+		\hline 
+		Vue & $72,16 \pm 0,45$, \redtext{$\uparrow 1\%$} & $45,26 \pm 0,47$, \redtext{$\uparrow 1\%$} & $29,20 \pm 1,87$, \redtext{$\uparrow 6\%$}\\ 
+		\hline 
+		Blazor AOT & $82,44 \pm 1,51$, \redtext{$\uparrow 16\%$} & $62,76 \pm 2,14$, \redtext{$\uparrow 40\%$} & $43,47 \pm 0,33$, \redtext{$\uparrow 57\%$}\\ 
+		\hline 
+		Blazor JIT & $87,31 \pm 1,21$, \redtext{$\uparrow 23\%$} & $64,58 \pm 1,01$, \redtext{$\uparrow 44\%$} & $46,35 \pm 0,49$, \redtext{$\uparrow 68\%$}\\ 
+		\hline 
+		\end{tabularx}
+	\caption{TODO}
+	\label{tab:TODO}
+\end{table}

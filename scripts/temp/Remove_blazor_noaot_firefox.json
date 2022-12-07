@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_blazor_noaot_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 70.798,
+    "CPU energiankulutuksen keskihajonta (J)": 2.017,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.74,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.01,
+    "CPU tehon keskiarvo (W)": 19.748,
+    "CPU tehon keskihajonta (W)": 0.47,
+    "DRAM tehon keskiarvo (W)": 0.74,
+    "DRAM tehon keskihajonta (W)": 0.01,
+    "Suoritusajan keskiarvo (S)": 3.605,
+    "Suoritusajan keskihajonta (S)": 0.021,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 71.538,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 2.017
+}

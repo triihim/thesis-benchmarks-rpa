@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_angular_edge",
+    "CPU energiankulutuksen keskiarvo (J)": 48.894,
+    "CPU energiankulutuksen keskihajonta (J)": 1.366,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.775,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.018,
+    "CPU tehon keskiarvo (W)": 17.088,
+    "CPU tehon keskihajonta (W)": 0.858,
+    "DRAM tehon keskiarvo (W)": 0.775,
+    "DRAM tehon keskihajonta (W)": 0.018,
+    "Suoritusajan keskiarvo (S)": 2.804,
+    "Suoritusajan keskihajonta (S)": 0.014,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 49.669,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 1.366
+}

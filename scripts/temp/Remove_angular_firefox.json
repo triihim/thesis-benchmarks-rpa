@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_angular_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 691.858,
+    "CPU energiankulutuksen keskihajonta (J)": 13.339,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.726,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.006,
+    "CPU tehon keskiarvo (W)": 25.097,
+    "CPU tehon keskihajonta (W)": 0.382,
+    "DRAM tehon keskiarvo (W)": 0.726,
+    "DRAM tehon keskihajonta (W)": 0.006,
+    "Suoritusajan keskiarvo (S)": 27.595,
+    "Suoritusajan keskihajonta (S)": 0.378,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 692.584,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 13.339
+}

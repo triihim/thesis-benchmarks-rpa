@@ -1,0 +1,15 @@
+{
+    "Testi": "Remove_vue_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 662.631,
+    "CPU energiankulutuksen keskihajonta (J)": 35.688,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.698,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.002,
+    "CPU tehon keskiarvo (W)": 24.41,
+    "CPU tehon keskihajonta (W)": 1.39,
+    "DRAM tehon keskiarvo (W)": 0.698,
+    "DRAM tehon keskihajonta (W)": 0.002,
+    "Suoritusajan keskiarvo (S)": 27.186,
+    "Suoritusajan keskihajonta (S)": 0.277,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 663.329,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 35.688
+}

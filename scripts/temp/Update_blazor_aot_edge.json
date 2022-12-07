@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_blazor_aot_edge",
+    "CPU energiankulutuksen keskiarvo (J)": 29.357,
+    "CPU energiankulutuksen keskihajonta (J)": 1.415,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.834,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.029,
+    "CPU tehon keskiarvo (W)": 11.638,
+    "CPU tehon keskihajonta (W)": 0.473,
+    "DRAM tehon keskiarvo (W)": 0.834,
+    "DRAM tehon keskihajonta (W)": 0.029,
+    "Suoritusajan keskiarvo (S)": 2.554,
+    "Suoritusajan keskihajonta (S)": 0.017,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 30.191,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 1.415
+}

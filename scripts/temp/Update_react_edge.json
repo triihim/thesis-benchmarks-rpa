@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_react_edge",
+    "CPU energiankulutuksen keskiarvo (J)": 22.949,
+    "CPU energiankulutuksen keskihajonta (J)": 0.58,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.813,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.004,
+    "CPU tehon keskiarvo (W)": 9.428,
+    "CPU tehon keskihajonta (W)": 0.341,
+    "DRAM tehon keskiarvo (W)": 0.813,
+    "DRAM tehon keskihajonta (W)": 0.004,
+    "Suoritusajan keskiarvo (S)": 2.473,
+    "Suoritusajan keskihajonta (S)": 0.009,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 23.762,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.58
+}

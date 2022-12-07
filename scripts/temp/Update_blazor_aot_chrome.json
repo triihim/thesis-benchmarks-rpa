@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_blazor_aot_chrome",
+    "CPU energiankulutuksen keskiarvo (J)": 30.447,
+    "CPU energiankulutuksen keskihajonta (J)": 0.927,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.856,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.029,
+    "CPU tehon keskiarvo (W)": 11.908,
+    "CPU tehon keskihajonta (W)": 0.285,
+    "DRAM tehon keskiarvo (W)": 0.856,
+    "DRAM tehon keskihajonta (W)": 0.029,
+    "Suoritusajan keskiarvo (S)": 2.575,
+    "Suoritusajan keskihajonta (S)": 0.017,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 31.303,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.927
+}

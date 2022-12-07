@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_blazor_aot_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 27.093,
+    "CPU energiankulutuksen keskihajonta (J)": 1.17,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.782,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.008,
+    "CPU tehon keskiarvo (W)": 10.958,
+    "CPU tehon keskihajonta (W)": 0.41,
+    "DRAM tehon keskiarvo (W)": 0.782,
+    "DRAM tehon keskihajonta (W)": 0.008,
+    "Suoritusajan keskiarvo (S)": 2.54,
+    "Suoritusajan keskihajonta (S)": 0.016,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 27.875,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 1.17
+}

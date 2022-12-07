@@ -1,0 +1,15 @@
+{
+    "Testi": "Render_react_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 26.815,
+    "CPU energiankulutuksen keskihajonta (J)": 0.862,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.818,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.013,
+    "CPU tehon keskiarvo (W)": 9.482,
+    "CPU tehon keskihajonta (W)": 0.398,
+    "DRAM tehon keskiarvo (W)": 0.818,
+    "DRAM tehon keskihajonta (W)": 0.013,
+    "Suoritusajan keskiarvo (S)": 2.871,
+    "Suoritusajan keskihajonta (S)": 0.018,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 27.633,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.862
+}

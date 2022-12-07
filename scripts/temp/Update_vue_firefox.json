@@ -1,0 +1,15 @@
+{
+    "Testi": "Update_vue_firefox",
+    "CPU energiankulutuksen keskiarvo (J)": 25.502,
+    "CPU energiankulutuksen keskihajonta (J)": 0.886,
+    "DRAM energiankulutuksen keskiarvo (J)": 0.805,
+    "DRAM energiankulutuksen keskihajonta (J)": 0.012,
+    "CPU tehon keskiarvo (W)": 9.498,
+    "CPU tehon keskihajonta (W)": 0.384,
+    "DRAM tehon keskiarvo (W)": 0.805,
+    "DRAM tehon keskihajonta (W)": 0.012,
+    "Suoritusajan keskiarvo (S)": 2.699,
+    "Suoritusajan keskihajonta (S)": 0.02,
+    "Kokonaisenergiankulutus CPU+DRAM (J)": 26.307,
+    "Kokonaisenergiankulutuksen keskihajonta CPU+DRAM (J)": 0.886
+}
