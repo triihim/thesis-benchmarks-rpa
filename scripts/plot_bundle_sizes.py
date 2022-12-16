@@ -46,7 +46,6 @@ cumulative_load_plot.set_title(f"Kumulatiiviset {visits} latausta")
 cumulative_load_plot.set_ylim(0, 100)
 cumulative_load_plot.set_xticks(x_index, frameworks)
 
-fig.set_size_inches(6, 9)
 fig.supylabel("Tiedonsiirto (MB)")
 fig.suptitle("Testisovellusten edellyttämä tiedonsiirto", y=1, fontsize=16)
 fig.tight_layout()

@@ -34,14 +34,14 @@ def get_cell_str(test, framework, browser):
     json_data = json.load(json_file)
   value = json_data[property]
   best = get_best(browser)
-  percentage = round((value - best) / best * 100)
-  diff = f"{percentage}\%"
+  percentage = round((value - best) / best * 100, 5)
+  diff = f"{round(percentage)}\%"
   if percentage > 0:
     diff = r"\redtext{$\uparrow " + diff + "$}"
   return f"${convert_decimal(value)} \pm {convert_decimal(json_data[std])}$, {diff}"
 
 result = str()
-result += "\\begin{table}[htb!]\n"
+result += "\\begin{table}[!h]\n"
 result += "\t\centering\n"
 result += "\t\\begin{tabularx}{\\textwidth}{|l|X|X|X|}\n"
 result += "\t\t\hline \n"

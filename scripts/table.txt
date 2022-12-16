@@ -1,4 +1,4 @@
-\begin{table}[htb!]
+\begin{table}[!h]
 	\centering
 	\begin{tabularx}{\textwidth}{|l|X|X|X|}
 		\hline 
@@ -7,15 +7,15 @@
 		\hline 
 		& Google Chrome		& Microsoft Edge		& Mozilla Firefox\\ 
 		\hline 
-		React & $0,883 \pm 0,033$, \redtext{$\uparrow 11\%$} & $0,855 \pm 0,017$, \redtext{$\uparrow 10\%$} & $0,751 \pm 0,012$, \redtext{$\uparrow 8\%$}\\ 
+		React & $2,51 \pm 0,02$, 0\% & $2,47 \pm 0,01$, 0\% & $2,53 \pm 0,02$, 0\%\\ 
 		\hline 
-		Angular & $0,793 \pm 0,005$, 0\% & $0,775 \pm 0,018$, 0\% & $0,726 \pm 0,006$, \redtext{$\uparrow 4\%$}\\ 
+		Angular & $3,71 \pm 0,01$, \redtext{$\uparrow 48\%$} & $3,71 \pm 0,01$, \redtext{$\uparrow 50\%$} & $12,52 \pm 0,09$, \redtext{$\uparrow 395\%$}\\ 
 		\hline 
-		Vue & $0,824 \pm 0,007$, \redtext{$\uparrow 4\%$} & $0,795 \pm 0,033$, \redtext{$\uparrow 3\%$} & $0,698 \pm 0,002$, 0\%\\ 
+		Vue & $2,57 \pm 0,01$, \redtext{$\uparrow 2\%$} & $2,56 \pm 0,02$, \redtext{$\uparrow 3\%$} & $2,70 \pm 0,02$, \redtext{$\uparrow 7\%$}\\ 
 		\hline 
-		Blazor AOT & $0,838 \pm 0,029$, \redtext{$\uparrow 6\%$} & $0,803 \pm 0,032$, \redtext{$\uparrow 4\%$} & $0,748 \pm 0,043$, \redtext{$\uparrow 7\%$}\\ 
+		Blazor AOT & $2,58 \pm 0,02$, \redtext{$\uparrow 3\%$} & $2,55 \pm 0,02$, \redtext{$\uparrow 3\%$} & $2,54 \pm 0,02$, \redtext{$\uparrow 0\%$}\\ 
 		\hline 
-		Blazor JIT & $0,818 \pm 0,007$, \redtext{$\uparrow 3\%$} & $0,818 \pm 0,039$, \redtext{$\uparrow 6\%$} & $0,740 \pm 0,010$, \redtext{$\uparrow 6\%$}\\ 
+		Blazor JIT & $2,78 \pm 0,01$, \redtext{$\uparrow 11\%$} & $2,79 \pm 0,02$, \redtext{$\uparrow 13\%$} & $2,80 \pm 0,02$, \redtext{$\uparrow 11\%$}\\ 
 		\hline 
 		\end{tabularx}
 	\caption{TODO}

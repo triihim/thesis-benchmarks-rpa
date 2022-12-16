@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 precision = sys.argv[1]
-test_avg = bool(sys.argv[2])
+test_avg = bool(int(sys.argv[2]))
 property = sys.argv[3]
 
 # If test_avg flag is true, calculate the average instead of total.
@@ -44,14 +44,14 @@ def convert_decimal(value):
 def get_cell_str(framework, browser):
   value = get_property_sum(framework, browser)
   best = bests[browser]
-  percentage = round((value - best) / best * 100)
-  diff = f"{percentage}\%"
+  percentage = round((value - best) / best * 100, 5)
+  diff = f"{round(percentage)}\%"
   if percentage > 0:
      diff = r"\redtext{$\uparrow " + diff + "$}"
   return f"${convert_decimal(value)}$, {diff}"
 
 result = str()
-result += "\\begin{table}[htb!]\n"
+result += "\\begin{table}[!h]\n"
 result += "\t\centering\n"
 result += "\t\\begin{tabularx}{\\textwidth}{|l|X|X|X|}\n"
 result += "\t\t\hline \n"

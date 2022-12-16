@@ -7,9 +7,26 @@ import json
 
 plt.style.use("ggplot")
 
-test_avg = bool(sys.argv[1])
-property = sys.argv[2]
-y_label = sys.argv[3]
+
+test_avg = bool(int(sys.argv[1]))
+precision = int(sys.argv[2])
+show = bool(int(sys.argv[3]))
+property = sys.argv[4]
+title = sys.argv[5]
+y_label = sys.argv[6]
+
+output_filename = ""
+
+if show == False:
+  output_filename = input("Output filename:")
+  matplotlib.use("pgf")
+  matplotlib.rcParams.update({
+      "pgf.texsystem": "pdflatex",
+      'font.family': 'serif',
+      'text.usetex': True,
+      'pgf.rcfonts': False,
+  })
+
 
 # If test_avg flag is true, calculate the average instead of total.
 divisor = 1
@@ -19,7 +36,6 @@ if test_avg > 0:
 browsers = ["chrome", "edge", "firefox"]
 browser_names = {"chrome": "Google Chrome", "edge": "Microsoft Edge", "firefox": "Mozilla Firefox"}
 frameworks = ["react", "angular", "vue", "blazor_aot", "blazor_noaot"]
-framework_names = {"react": "React", "angular": "Angular", "vue": "Vue", "blazor_aot": "Blazor AOT", "blazor_noaot": "Blazor JIT"}
 tests = ["Render", "Update", "Remove"]
 
 def get_property_sum(framework, browser):
@@ -29,7 +45,8 @@ def get_property_sum(framework, browser):
     with open(fp, "r") as json_file:
       json_data = json.load(json_file)
       property_sum += json_data[property]
-  return round(property_sum)
+  property_sum /= divisor
+  return round(property_sum, precision)
 
 def get_framework_data(framework):
   data = []
@@ -61,13 +78,23 @@ ax.bar_label(blazor_aot_bar, blazor_aot_data, rotation=90, label_type="center", 
 blazor_noaot_bar = ax.bar(x_indexes + 2*bar_width, blazor_noaot_data, width=bar_width, label="Blazor JIT", color="#CE3EE5")
 ax.bar_label(blazor_noaot_bar, blazor_noaot_data, rotation=90, label_type="center", color="white")
 
-ax.set_xticks(x_indexes, x_labels)
-ax.legend(facecolor='white', framealpha=1, loc="upper left")
+# Shrink current axis's height by 10% on the bottom
+box = ax.get_position()
+ax.set_position([box.x0, box.y0 + box.height * 0.1,
+                 box.width, box.height * 0.9])
 
-ax.set_title(property)
+ax.set_xticks(x_indexes, x_labels)
+#ax.legend(facecolor='white', framealpha=1)
+
+# Put a legend below current axis
+ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.08), facecolor="white", ncol=5)
+
+ax.set_title(title)
 ax.set_ylabel(y_label)
 
-
 fig.add_subplot(ax)
-fig.show()
-plt.show()
+
+if show:
+  plt.show()
+else:
+  fig.savefig(f"./plots/{output_filename}.pgf")
