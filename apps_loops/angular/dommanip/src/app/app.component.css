@@ -1,0 +1,15 @@
+main {
+  font-family: 'Courier New', Courier, monospace;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 20px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main button, main input {
+  padding: 10px;
+}

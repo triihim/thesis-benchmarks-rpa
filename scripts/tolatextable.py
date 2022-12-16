@@ -3,8 +3,9 @@ import pandas as pd
 import json
 
 test = sys.argv[1].capitalize()
-property = sys.argv[2]
-std = sys.argv[3]
+precision = sys.argv[2]
+property = sys.argv[3]
+std = sys.argv[4]
 
 output = "./table.txt"
 
@@ -24,7 +25,7 @@ def get_best(browser):
   return best_value
 
 def convert_decimal(value):
-  return format(value, ".2f").replace(".", ",")
+  return format(value, f".{precision}f").replace(".", ",")
 
 def get_cell_str(test, framework, browser):
   json_data = {}
@@ -42,7 +43,7 @@ def get_cell_str(test, framework, browser):
 result = str()
 result += "\\begin{table}[htb!]\n"
 result += "\t\centering\n"
-result += "\t\\begin{tabularx}{\\textwidth}{|X|X|X|X|}\n"
+result += "\t\\begin{tabularx}{\\textwidth}{|l|X|X|X|}\n"
 result += "\t\t\hline \n"
 result += "\t\t\multicolumn{4}{|c|}{\\textbf{TODO}} \\\\ \n"
 result += "\t\t\hline \n"

@@ -1,0 +1,19 @@
+.table[b-b3wdr9z0xf] {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.table__row:nth-child(odd)[b-b3wdr9z0xf] {
+  background-color: #eee;
+}
+
+.table__row:nth-child(even)[b-b3wdr9z0xf] {
+  background-color: #ddd;
+}
+
+.table__cell[b-b3wdr9z0xf] {
+  padding: 10px;
+  text-align: center;
+}

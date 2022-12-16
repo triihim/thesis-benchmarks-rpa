@@ -1,0 +1,1 @@
+C:\Users\tatur\dev\gradu\apps_loops\blazor\dommanip\bin\Release\net7.0\publish\web.config

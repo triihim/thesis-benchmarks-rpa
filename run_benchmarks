@@ -5,7 +5,7 @@ renderCount=$2
 
 browsers=("firefox" "chrome" "edge")
 
-http-server -p 8080 ./apps/BUILDS/${framework} &
+#http-server -p 8080 ./apps/BUILDS/${framework} &
 
 cd rpa
 

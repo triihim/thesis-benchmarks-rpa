@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+sYaexvOs9rxfWV5dyJmgL9ET2+iKQHuuZmbjnxktm87qCykDB912N9EDj+yTzxKNaHIs+os0aCytnK7DtI4w==",
+  "dgSpecHash": "7gMkrB9OPqtUarnXXmDhTS9Nkg/+1H2jI2JrLy8hS+APFk+m8hxNeMGujwuNP740znPYdKpDYS8iqrFjnA2bCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tatur\\dev\\gradu_2\\blazor\\dommanip\\dommanip.csproj",
+  "projectFilePath": "C:\\Users\\tatur\\dev\\gradu\\apps\\blazor\\dommanip\\dommanip.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tatur\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
     "C:\\Users\\tatur\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.0\\microsoft.aspnetcore.components.7.0.0.nupkg.sha512",

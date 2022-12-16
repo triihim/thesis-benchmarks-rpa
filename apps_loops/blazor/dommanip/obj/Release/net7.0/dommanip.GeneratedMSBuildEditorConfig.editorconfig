@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = dommanip
+build_property.RootNamespace = dommanip
+build_property.ProjectDir = C:\Users\tatur\dev\gradu\apps_loops\blazor\dommanip\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tatur\dev\gradu\apps_loops\blazor\dommanip
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tatur/dev/gradu/apps_loops/blazor/dommanip/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tatur/dev/gradu/apps_loops/blazor/dommanip/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tatur/dev/gradu/apps_loops/blazor/dommanip/Pages/App.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gz2jgxt7ce
+
+[C:/Users/tatur/dev/gradu/apps_loops/blazor/dommanip/Pages/Components/Table.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-b3wdr9z0xf
+
+[C:/Users/tatur/dev/gradu/apps_loops/blazor/dommanip/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hianlzi64a

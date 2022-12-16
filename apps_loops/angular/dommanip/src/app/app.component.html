@@ -1,0 +1,9 @@
+<main>
+  <p id="status">{{status}}</p>
+  <input id="inputRowCount" type="number" (input)="inputChange($event)"/>
+  <button id="btnGenerate" (click)="generate()">Generate</button>
+  <button id="btnRender" (click)="render()">Render</button>
+  <button id="btnUpdate" (click)="update()">Update</button>
+  <button id="btnRemove" (click)="remove()">Remove</button>
+  <app-table *ngIf="shouldRenderRows" [rows]="renderRows"></app-table>
+</main>

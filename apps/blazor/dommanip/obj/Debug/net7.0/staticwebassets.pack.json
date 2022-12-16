@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tatur\\dev\\gradu\\apps\\blazor\\dommanip\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\tatur\\dev\\gradu\\apps\\blazor\\dommanip\\obj\\Debug\\net7.0\\build-gz\\877lSlwN.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\tatur\\dev\\gradu\\apps\\blazor\\dommanip\\obj\\Debug\\net7.0\\scopedcss\\bundle\\dommanip.styles.css",
+      "PackagePath": "staticwebassets\\dommanip.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\tatur\\dev\\gradu\\apps\\blazor\\dommanip\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.dommanip.props",
+      "PackagePath": "build\\dommanip.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.dommanip.props",
+      "PackagePath": "buildMultiTargeting\\dommanip.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.dommanip.props",
+      "PackagePath": "buildTransitive\\dommanip.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.dommanip.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
